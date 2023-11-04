@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.mb-4{
+    margin-left: 118px;
+    border-radius: 50%;
+}
+.fw-normal{
+    text-align: center;
+}
+label{
+    opacity: 0.7;
+}
+.mb-3{
+    text-align: center;
+    font-family: cursive;
+}
+.py-2{
+    margin-top: 1rem;
+}
+/* .form-floating{
+    margin-bottom: 1 rem;
+
+} */
