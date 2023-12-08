@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
 
     const option = {
         method: "POST",
-        auth: "nayan:${process.env.NODE_APP_API_KEY}"
+        auth: process.env.NODE_APP_API_KEY
     }
 
     const request = https.request(url, option, function (response) {
