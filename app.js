@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
 
     const option = {
         method: "POST",
-        auth: "nayan:79d5d043be2ef59649d1440f50bc7014-us8"
+        auth: "${process.env.NODE_APP_API_KEY}"
     }
 
     const request = https.request(url, option, function (response) {
@@ -64,7 +64,7 @@ app.listen(process.env.POST || 6969, function () {
 
 
 // apikey
-// 79d5d043be2ef59649d1440f50bc7014-us8
+// 4316d33ec155c68f6d33d2e65c5254dd-us8
 
 // audienceid
 // f5155df57a
